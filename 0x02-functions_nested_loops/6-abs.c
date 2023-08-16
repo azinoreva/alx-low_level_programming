@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  * Description: This function prints the absolute value
- * Return: Always 0 (Success)
+ * Return: n (Value)
  */
 int _abs(int n)
 	{

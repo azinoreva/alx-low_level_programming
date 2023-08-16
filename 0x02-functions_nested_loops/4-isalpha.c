@@ -2,7 +2,8 @@
 
 
 	/**
-	 * _isalpha - checks for alphabetic character
+	 * main - Entry point of the program
+	 * Description:_isalpha - checks for alphabetic character
 	 * @c: the character to be checked
 	 * Return: 1 if c is a letter, 0 otherwise
 	 */
