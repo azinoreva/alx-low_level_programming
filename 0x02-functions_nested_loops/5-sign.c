@@ -1,24 +1,24 @@
 #include "main.h"
 
 
-	/**
-	 * main - check the code.
-	 *
-	 * Return: Always 0.
-	 */
-	int main(void)
+/**
+ * main - Entry point of the program
+ * Description:Prints the sign of a number
+ * Return: Always 0 (Success)
+ */
+int print_sign(int n)
 	{
-	    int r;
-
-
-	    r = _isalpha('H');
-	    _putchar(r + '0');
-	    r = _isalpha('o');
-	    _putchar(r + '0');
-	    r = _isalpha(108);
-	    _putchar(r + '0');
-	    r = _isalpha(';');
-	    _putchar(r + '0');
-	    _putchar('\n');
-	    return (0);
+		if (n > 0)
+		{
+			_putchar('+');
+			return (1);
+		} else if (n == 0)
+		{
+			_putchar(48);
+			return (0);
+		} else if (n < 0)
+		{
+			_putchar('-');
+		}
+			return (-1);
 	}
