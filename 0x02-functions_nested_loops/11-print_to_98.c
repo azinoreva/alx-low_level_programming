@@ -1,13 +1,10 @@
 #include <stdio.h>
-	#include "main.h"
-
-
-	/**
-	 * main - Entry point of the program
-	 *Description: print_to_98 - prints all natural numbers from n to 98,
-	 * followed by a new line
-	 * @n: print from this number
-	 */
+#include "main.h"
+/**
+* print_to_98 - prints all natural numbers from n to 98,
+* followed by a new line
+* @n: print from this number
+*/
 	void print_to_98(int n)
 	{
 		int i, j;

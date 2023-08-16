@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point of the program
+ * print_alphabet_x10 - Entry point of the program
  * Description: This function prints alphabets
  * Return: Always 0 (Success)
  */
