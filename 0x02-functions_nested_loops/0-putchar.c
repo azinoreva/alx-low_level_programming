@@ -1,8 +1,9 @@
 #include "main.h"
-	/**
-	 * main - print _putchar
-	 * Return: Always 0 (Sucess)
-	 */
+/**
+ * main - Entry point of the program
+ * Description: This function prints the characters of "_putchar" using _putchar function
+ * Return: Always 0 (Success)
+ */
 
 	int main(void)
 	{
